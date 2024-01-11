@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.VNaVenda" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="Theme.VNaVenda" parent="Theme.Material3.DayNight">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -10,9 +10,9 @@
     </style>
 
     <!-- App Themes -->
-    <style name="Theme.VNaVenda.Starting" parent="Theme.AppCompat.NoActionBar">
+    <style name="Theme.VNaVenda.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splashScreenBackground</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/app_icon</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
         <item name="postSplashScreenTheme">@style/Theme.VNaVenda</item>
     </style>
 </resources>
