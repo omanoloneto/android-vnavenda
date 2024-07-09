@@ -1,4 +1,4 @@
-package br.com.manoloneto.vnavenda.data.entities
+package br.com.omanoloneto.vnavenda.data.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

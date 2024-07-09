@@ -1,4 +1,4 @@
-package br.com.manoloneto.vnavenda
+package br.com.omanoloneto.vnavenda
 
 import org.junit.Test
 

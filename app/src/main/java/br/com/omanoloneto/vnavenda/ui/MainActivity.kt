@@ -1,10 +1,10 @@
-package br.com.manoloneto.vnavenda.ui
+package br.com.omanoloneto.vnavenda.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import br.com.manoloneto.vnavenda.ui.screens.ShoppingListScreen
-import br.com.manoloneto.vnavenda.viewmodels.ShoppingListViewModel
+import br.com.omanoloneto.vnavenda.ui.screens.ShoppingListScreen
+import br.com.omanoloneto.vnavenda.viewmodels.ShoppingListViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : ComponentActivity() {

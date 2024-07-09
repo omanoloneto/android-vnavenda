@@ -1,11 +1,11 @@
-package br.com.manoloneto.vnavenda.viewmodels
+package br.com.omanoloneto.vnavenda.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.asLiveData
-import br.com.manoloneto.vnavenda.data.dao.ShoppingItemDao
-import br.com.manoloneto.vnavenda.data.entities.ShoppingItem
+import br.com.omanoloneto.vnavenda.data.dao.ShoppingItemDao
+import br.com.omanoloneto.vnavenda.data.entities.ShoppingItem
 import kotlinx.coroutines.launch
 
 class ShoppingListViewModel(

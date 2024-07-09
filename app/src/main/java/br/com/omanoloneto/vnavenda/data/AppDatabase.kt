@@ -1,11 +1,11 @@
-package br.com.manoloneto.vnavenda.data
+package br.com.omanoloneto.vnavenda.data
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import br.com.manoloneto.vnavenda.data.dao.ShoppingItemDao
-import br.com.manoloneto.vnavenda.data.entities.ShoppingItem
+import br.com.omanoloneto.vnavenda.data.dao.ShoppingItemDao
+import br.com.omanoloneto.vnavenda.data.entities.ShoppingItem
 
 @Database(entities = [ShoppingItem::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {

@@ -1,4 +1,4 @@
-package br.com.manoloneto.vnavenda.ui.composables
+package br.com.omanoloneto.vnavenda.ui.composables
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Row
@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import br.com.manoloneto.vnavenda.data.entities.ShoppingItem
+import br.com.omanoloneto.vnavenda.data.entities.ShoppingItem
 
 @Composable
 fun ShoppingItemRow(item: ShoppingItem, onCheckedChange: (ShoppingItem) -> Unit) {

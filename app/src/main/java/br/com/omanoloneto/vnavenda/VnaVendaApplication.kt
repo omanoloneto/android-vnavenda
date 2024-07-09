@@ -1,7 +1,7 @@
-package br.com.manoloneto.vnavenda
+package br.com.omanoloneto.vnavenda
 
 import android.app.Application
-import br.com.manoloneto.vnavenda.di.appModule
+import br.com.omanoloneto.vnavenda.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 

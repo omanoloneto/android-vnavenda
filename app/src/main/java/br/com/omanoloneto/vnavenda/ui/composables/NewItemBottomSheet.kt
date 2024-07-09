@@ -1,4 +1,4 @@
-package br.com.manoloneto.vnavenda.ui.composables
+package br.com.omanoloneto.vnavenda.ui.composables
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

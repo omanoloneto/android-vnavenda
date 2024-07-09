@@ -1,4 +1,4 @@
-package br.com.manoloneto.vnavenda.ui.screens
+package br.com.omanoloneto.vnavenda.ui.screens
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -9,10 +9,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.rememberCoroutineScope
-import br.com.manoloneto.vnavenda.data.entities.ShoppingItem
-import br.com.manoloneto.vnavenda.ui.composables.NewItemBottomSheet
-import br.com.manoloneto.vnavenda.ui.composables.ShoppingItemRow
-import br.com.manoloneto.vnavenda.viewmodels.ShoppingListViewModel
+import br.com.omanoloneto.vnavenda.data.entities.ShoppingItem
+import br.com.omanoloneto.vnavenda.ui.composables.NewItemBottomSheet
+import br.com.omanoloneto.vnavenda.ui.composables.ShoppingItemRow
+import br.com.omanoloneto.vnavenda.viewmodels.ShoppingListViewModel
 import kotlinx.coroutines.launch
 import org.koin.androidx.compose.koinViewModel
 

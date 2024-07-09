@@ -1,8 +1,8 @@
-package br.com.manoloneto.vnavenda.di
+package br.com.omanoloneto.vnavenda.di
 
 import androidx.room.Room
-import br.com.manoloneto.vnavenda.data.AppDatabase
-import br.com.manoloneto.vnavenda.viewmodels.ShoppingListViewModel
+import br.com.omanoloneto.vnavenda.data.AppDatabase
+import br.com.omanoloneto.vnavenda.viewmodels.ShoppingListViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

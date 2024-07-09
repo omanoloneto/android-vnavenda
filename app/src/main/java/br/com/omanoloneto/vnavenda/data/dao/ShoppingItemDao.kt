@@ -1,7 +1,7 @@
-package br.com.manoloneto.vnavenda.data.dao
+package br.com.omanoloneto.vnavenda.data.dao
 
 import androidx.room.*
-import br.com.manoloneto.vnavenda.data.entities.ShoppingItem
+import br.com.omanoloneto.vnavenda.data.entities.ShoppingItem
 import kotlinx.coroutines.flow.Flow
 
 @Dao
