@@ -6,12 +6,9 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.asLiveData
 import br.com.manoloneto.vnavenda.data.dao.ShoppingItemDao
 import br.com.manoloneto.vnavenda.data.entities.ShoppingItem
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
-@HiltViewModel
-class ShoppingListViewModel @Inject constructor(
+class ShoppingListViewModel(
     private val shoppingItemDao: ShoppingItemDao
 ) : ViewModel() {
 

@@ -4,14 +4,16 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import br.com.manoloneto.vnavenda.ui.screens.ShoppingListScreen
-import dagger.hilt.android.AndroidEntryPoint
+import br.com.manoloneto.vnavenda.viewmodels.ShoppingListViewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
-@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+    private val shoppingListViewModel: ShoppingListViewModel by viewModel()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ShoppingListScreen()
+            ShoppingListScreen(viewModel = shoppingListViewModel)
         }
     }
 }
